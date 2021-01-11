@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "autosklearn"
+version = "0.1.0"
+description = ""
+authors = ["gepuro <gepuro@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+auto-sklearn = "^0.12.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
